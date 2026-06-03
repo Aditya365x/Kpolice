@@ -1,0 +1,2144 @@
+{
+  "firs": [
+    {
+      "fir_id": 21,
+      "fir_number": "0088/2024",
+      "station": {
+        "name": "Cowal Bazaar PS",
+        "district": "Ballari",
+        "lat": 15.1394,
+        "lng": 76.9242
+      },
+      "filed_at": "2024-02-10T11:20:00",
+      "occurred_at": "2024-02-09T18:30:00",
+      "crime_type": "Extortion",
+      "ipc_sections": [
+        "384",
+        "506",
+        "34"
+      ],
+      "description": "Complainant Venkatesh L (42), a local businessman, reported receiving threatening calls from unknown associates of a local history-sheeter demanding protection money of Rs 2,00,000. Assailants visited his shop and threatened to burn it down if money wasn't paid.",
+      "location_text": "Venkateshwara Traders, Main Road, Cowal Bazaar, Ballari",
+      "lat": 15.1412,
+      "lng": 76.9215,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Venkatesh L",
+        "age": 42,
+        "gender": "Male",
+        "phone": "9845234567",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Venkatesh L",
+        "age": 42,
+        "gender": "Male",
+        "address": "Infantry Road, Ballari",
+        "injury": "None \u2014 psychological trauma and financial threat"
+      },
+      "accused": [
+        {
+          "name": "Murali alias 'Kapala'",
+          "is_known": true,
+          "age": 29,
+          "address": "Brucepet, Ballari",
+          "physical_desc": "Stocky build, scar on right cheek"
+        },
+        {
+          "name": "Unknown associate",
+          "is_known": false,
+          "physical_desc": "Tall, lean, wearing black leather jacket"
+        }
+      ],
+      "evidence": [
+        "Audio recording of extortion call",
+        "CCTV footage from shop entrance showing intimidation"
+      ],
+      "io": "SI Raghavendra Rao",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 22,
+      "fir_number": "0142/2024",
+      "station": {
+        "name": "Gadag Town PS",
+        "district": "Gadag",
+        "lat": 15.4167,
+        "lng": 75.6167
+      },
+      "filed_at": "2024-02-25T09:15:00",
+      "occurred_at": "2024-02-24T22:00:00",
+      "crime_type": "Vehicle Theft",
+      "ipc_sections": [
+        "379"
+      ],
+      "description": "Complainant Anand Kulkarni parked his Hero Splendor motorcycle (KA-26 E-5541) in front of his residence. Next morning, the vehicle was found missing. Handlebar lock was broken, fragments found on spot.",
+      "location_text": "No. 45, Near Kalasapur Road, Gadag",
+      "lat": 15.4201,
+      "lng": 75.6212,
+      "status": "open",
+      "complainant": {
+        "name": "Anand Kulkarni",
+        "age": 35,
+        "gender": "Male",
+        "phone": "9901234567",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Anand Kulkarni",
+        "age": 35,
+        "gender": "Male",
+        "address": "Kalasapur Road, Gadag",
+        "injury": "Loss of motorcycle valued at Rs 45,000"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Unknown, suspected local bike lifting gang"
+        }
+      ],
+      "evidence": [
+        "Original RC and insurance documents",
+        "Broken lock fragments recovered from scene"
+      ],
+      "io": "HC Sharanappa",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 23,
+      "fir_number": "0054/2024",
+      "station": {
+        "name": "Mandya Central PS",
+        "district": "Mandya",
+        "lat": 12.5218,
+        "lng": 76.8971
+      },
+      "filed_at": "2024-03-02T16:40:00",
+      "occurred_at": "2024-03-02T15:00:00",
+      "crime_type": "Gambling Raid",
+      "ipc_sections": [
+        "78-3 Karnataka Police Act"
+      ],
+      "description": "Suo motu case registered following a successful raid led by PI Kumar on an illegal gambling den operating out of a shed. Six persons caught playing 'Andar Bahar' card game with cash stakes.",
+      "location_text": "Shed behind old rice mill, Holalu Road, Mandya",
+      "lat": 12.5312,
+      "lng": 76.9045,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "PI Kumar S (suo motu)",
+        "age": null,
+        "gender": "Male",
+        "phone": null,
+        "relation": "Investigating Officer"
+      },
+      "victim": {
+        "name": "State",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Public order violation"
+      },
+      "accused": [
+        {
+          "name": "Ramesh Gowda",
+          "is_known": true,
+          "age": 41,
+          "address": "Holalu, Mandya",
+          "physical_desc": "Den operator"
+        },
+        {
+          "name": "Suresh M",
+          "is_known": true,
+          "age": 36,
+          "address": "Mandya Town",
+          "physical_desc": "Player"
+        }
+      ],
+      "evidence": [
+        "Cash Rs 34,500 seized",
+        "52 playing cards",
+        "Plastic mats and tokens"
+      ],
+      "io": "PI Kumar S",
+      "court_case_no": "CC 98/2024"
+    },
+    {
+      "fir_id": 24,
+      "fir_number": "0211/2024",
+      "station": {
+        "name": "Chikmagalur Town PS",
+        "district": "Chikkamagaluru",
+        "lat": 13.3161,
+        "lng": 75.772
+      },
+      "filed_at": "2024-03-15T19:10:00",
+      "occurred_at": "2024-03-15T18:00:00",
+      "crime_type": "Chain Snatching",
+      "ipc_sections": [
+        "379",
+        "356"
+      ],
+      "description": "Victim Suma Rao (58) was returning from a temple when two unidentified youth on a motorcycle approached on the pretext of asking directions and forcefully snatched her gold 'Mangalsutra' chain weighing 40 grams.",
+      "location_text": "3rd Cross, Kalyan Nagar, Chikkamagaluru",
+      "lat": 13.3225,
+      "lng": 75.7684,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Suma Rao",
+        "age": 58,
+        "gender": "Female",
+        "phone": "9448123456",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Suma Rao",
+        "age": 58,
+        "gender": "Female",
+        "address": "Kalyan Nagar, Chikkamagaluru",
+        "injury": "Minor abrasions and swelling around neck"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Two youths, medium build, riding a silver Honda Activa without number plate, wearing black helmets"
+        }
+      ],
+      "evidence": [
+        "Medical report of neck abrasions",
+        "CCTV footage from residential camera showing vehicle movement"
+      ],
+      "io": "SI Chethan Kumar",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 25,
+      "fir_number": "0092/2024",
+      "station": {
+        "name": "Chamarajanagar Rural PS",
+        "district": "Chamarajanagar",
+        "lat": 11.9261,
+        "lng": 76.9437
+      },
+      "filed_at": "2024-03-29T08:00:00",
+      "occurred_at": "2024-03-28T23:30:00",
+      "crime_type": "Cattle Theft",
+      "ipc_sections": [
+        "379",
+        "429"
+      ],
+      "description": "Complainant Mahadevaswamy (47), a farmer, reported that two high-yielding Hallikar breed cows were stolen from his open cowshed overnight. Traces of a small commercial pickup vehicle's tyres found near the farm entrance.",
+      "location_text": "Farmhouse, Santhemarahalli Village, Chamarajanagar",
+      "lat": 11.9542,
+      "lng": 76.9812,
+      "status": "open",
+      "complainant": {
+        "name": "Mahadevaswamy",
+        "age": 47,
+        "gender": "Male",
+        "phone": "9743012345",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Mahadevaswamy",
+        "age": 47,
+        "gender": "Male",
+        "address": "Santhemarahalli, Chamarajanagar",
+        "injury": "Financial loss of approx Rs 1,20,000 (value of cows)"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Suspected inter-state cattle lifting gang"
+        }
+      ],
+      "evidence": [
+        "Tyre track impressions photographed",
+        "Animal husbandry department registration cards"
+      ],
+      "io": "HC Basavanna",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 26,
+      "fir_number": "0314/2024",
+      "station": {
+        "name": "Karwar Town PS",
+        "district": "Uttara Kannada",
+        "lat": 14.8095,
+        "lng": 74.1311
+      },
+      "filed_at": "2024-04-05T14:30:00",
+      "occurred_at": "2024-04-05T12:15:00",
+      "crime_type": "Counterfeiting Currency",
+      "ipc_sections": [
+        "489B",
+        "489C",
+        "34"
+      ],
+      "description": "Alert fuel pump manager caught a customer attempting to pass off two high-quality counterfeit Rs 500 notes. Upon police arrival and search, an additional 15 fake notes were recovered from the suspect's wallet.",
+      "location_text": "Nayara Fuel Station, NH-66, Karwar",
+      "lat": 14.8145,
+      "lng": 74.1356,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Satish Naik",
+        "age": 39,
+        "gender": "Male",
+        "phone": "8123987654",
+        "relation": "Manager/Witness"
+      },
+      "victim": {
+        "name": "State / Economy",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Economic fraud"
+      },
+      "accused": [
+        {
+          "name": "Anil Fernandes",
+          "is_known": true,
+          "age": 28,
+          "address": "Sadashivgad, Karwar",
+          "physical_desc": "Fair complexion, tall, lean"
+        },
+        {
+          "name": "Unknown source",
+          "is_known": false,
+          "physical_desc": "Supplier of notes, suspected operating from Goa"
+        }
+      ],
+      "evidence": [
+        "17 counterfeit Rs 500 currency notes (seized and sealed)",
+        "Seizure mahazar document"
+      ],
+      "io": "SI Vinayaka Bhat",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 27,
+      "fir_number": "0176/2024",
+      "station": {
+        "name": "Haveri Town PS",
+        "district": "Haveri",
+        "lat": 14.7963,
+        "lng": 75.4003
+      },
+      "filed_at": "2024-04-18T20:45:00",
+      "occurred_at": "2024-04-18T17:30:00",
+      "crime_type": "Trespass and Assault",
+      "ipc_sections": [
+        "448",
+        "323",
+        "504",
+        "34"
+      ],
+      "description": "Complainant Manjunath Gowdar (34) reported that his neighbours forcibly trespassed into his courtyard over a compound wall dispute, abused his family in foul language, and physically assaulted him with wooden sticks.",
+      "location_text": "Vidya Nagar, Near Old KSRTC Depot, Haveri",
+      "lat": 14.7991,
+      "lng": 75.4052,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "Manjunath Gowdar",
+        "age": 34,
+        "gender": "Male",
+        "phone": "9481123456",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Manjunath Gowdar",
+        "age": 34,
+        "gender": "Male",
+        "address": "Vidya Nagar, Haveri",
+        "injury": "Contusions on left shoulder and back, minor swelling on face"
+      },
+      "accused": [
+        {
+          "name": "Kiran Patil",
+          "is_known": true,
+          "age": 38,
+          "address": "Vidya Nagar, Haveri",
+          "physical_desc": "Medium build, mustache"
+        },
+        {
+          "name": "Prakash Patil",
+          "is_known": true,
+          "age": 32,
+          "address": "Vidya Nagar, Haveri",
+          "physical_desc": "Brother of Kiran, athletic build"
+        }
+      ],
+      "evidence": [
+        "Wound certificate from Haveri District Hospital",
+        "Two wooden sticks recovered from scene"
+      ],
+      "io": "PSI Mallikarjun",
+      "court_case_no": "CC 142/2024"
+    },
+    {
+      "fir_id": 28,
+      "fir_number": "0588/2024",
+      "station": {
+        "name": "HSR Layout PS",
+        "district": "Bangalore Urban",
+        "lat": 12.9116,
+        "lng": 77.6389
+      },
+      "filed_at": "2024-04-30T11:00:00",
+      "occurred_at": "2024-04-29T14:15:00",
+      "crime_type": "Cyber Crime / Phishing",
+      "ipc_sections": [
+        "420",
+        "66C IT Act",
+        "66D IT Act"
+      ],
+      "description": "Complainant Priyanka Sen (29, IT Analyst) fell victim to a part-time job scam via Telegram. Tricked into investing money in fake crypto tasks, losing Rs 4,25,000 across 6 distinct transfers before realizing the fraud.",
+      "location_text": "Complainant residence, Sector 2, HSR Layout, Bangalore",
+      "lat": 12.9098,
+      "lng": 77.6415,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Priyanka Sen",
+        "age": 29,
+        "gender": "Female",
+        "phone": "9886012345",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Priyanka Sen",
+        "age": 29,
+        "gender": "Female",
+        "address": "Sector 2, HSR Layout, Bangalore",
+        "injury": "Financial loss of Rs 4,25,000"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Telegram handlers under aliases '@EarnWithTask' and '+91-8892XXXXXX' mule accounts"
+        }
+      ],
+      "evidence": [
+        "Bank statement showing beneficiary accounts",
+        "Screenshots of Telegram chats and transaction confirmations"
+      ],
+      "io": "SI Sandeep Kumar (Cyber Cell)",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 29,
+      "fir_number": "0122/2024",
+      "station": {
+        "name": "Koppal Rural PS",
+        "district": "Koppal",
+        "lat": 15.3437,
+        "lng": 76.1522
+      },
+      "filed_at": "2024-05-12T04:30:00",
+      "occurred_at": "2024-05-11T23:45:00",
+      "crime_type": "Highway Robbery",
+      "ipc_sections": [
+        "392",
+        "395",
+        "34"
+      ],
+      "description": "A truck driver was forcibly stopped on the highway by 4 men who placed large rocks on the road. The assailants threatened the driver with iron rods and knives, robbing him of Rs 18,000 cash and a smartphone.",
+      "location_text": "NH-50, Near Budagumpa Cross, Koppal",
+      "lat": 15.3854,
+      "lng": 76.1911,
+      "status": "open",
+      "complainant": {
+        "name": "Baldev Singh",
+        "age": 45,
+        "gender": "Male",
+        "phone": "9417012345",
+        "relation": "Self/Victim (Truck Driver)"
+      },
+      "victim": {
+        "name": "Baldev Singh",
+        "age": 45,
+        "gender": "Male",
+        "address": "Ludhiana, Punjab",
+        "injury": "Minor laceration on right forearm due to sharp threat"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "4 local youths, speaking Kannada and Hindi mixed, faces covered with towels"
+        }
+      ],
+      "evidence": [
+        "Rocks found on the highway",
+        "Medical first aid report from Koppal GH"
+      ],
+      "io": "SI Hanumappa G",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 30,
+      "fir_number": "0267/2024",
+      "station": {
+        "name": "Raichur West PS",
+        "district": "Raichur",
+        "lat": 16.2044,
+        "lng": 77.3551
+      },
+      "filed_at": "2024-05-24T15:15:00",
+      "occurred_at": "2024-01-10T11:00:00",
+      "crime_type": "Cheating / Job Fraud",
+      "ipc_sections": [
+        "420",
+        "468",
+        "34"
+      ],
+      "description": "Complainant Lingappa (26, unemployed graduate) stated that the accused collected Rs 1,50,000 promising a government job as a FDA in KSRTC. The accused provided a fake appointment letter and later switched off his phone.",
+      "location_text": "Saraswathi Nagar, Raichur",
+      "lat": 16.2112,
+      "lng": 77.3498,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Lingappa",
+        "age": 26,
+        "gender": "Male",
+        "phone": "7019012345",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Lingappa",
+        "age": 26,
+        "gender": "Male",
+        "address": "Deodurg Taluk, Raichur",
+        "injury": "Financial loss of Rs 1,50,000, fake documentation"
+      },
+      "accused": [
+        {
+          "name": "Mallikarjun Swamy",
+          "is_known": true,
+          "age": 44,
+          "address": "Nijalingappa Colony, Raichur",
+          "physical_desc": "Medium build, specs, claims connections in Bengaluru"
+        }
+      ],
+      "evidence": [
+        "Fake KSRTC appointment letter on forged letterhead",
+        "Bank payment receipt to accused account"
+      ],
+      "io": "SI Siddaramaiah",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 31,
+      "fir_number": "0402/2024",
+      "station": {
+        "name": "Vijayapura Town PS",
+        "district": "Vijayapura",
+        "lat": 16.8302,
+        "lng": 75.7101
+      },
+      "filed_at": "2024-06-05T08:30:00",
+      "occurred_at": "2024-06-04T22:15:00",
+      "crime_type": "Murder",
+      "ipc_sections": [
+        "302",
+        "120B"
+      ],
+      "description": "Real estate dealer Siddappa Gouda (52) was ambushed and hacked to death by rivals near his residence. Murder suspected to be over a highly valuable commercial plot dispute. Eyewitnesses identified the regular henchmen of a rival gang.",
+      "location_text": "Near Gol Gumbaz Road, Vijayapura",
+      "lat": 16.8324,
+      "lng": 75.7156,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "Mallesh Gouda",
+        "age": 24,
+        "gender": "Male",
+        "phone": "9844056789",
+        "relation": "Son of deceased"
+      },
+      "victim": {
+        "name": "Siddappa Gouda",
+        "age": 52,
+        "gender": "Male",
+        "address": "Adarsh Nagar, Vijayapura",
+        "injury": "Fatal deep incised wounds to neck and torso"
+      },
+      "accused": [
+        {
+          "name": "Yallappa Shinde",
+          "is_known": true,
+          "age": 34,
+          "address": "Jorapur Peth, Vijayapura",
+          "physical_desc": "Tall, dark complexion, muscular"
+        },
+        {
+          "name": "Bhimashankar",
+          "is_known": true,
+          "age": 29,
+          "address": "Vijayapura Town",
+          "physical_desc": "Medium build"
+        }
+      ],
+      "evidence": [
+        "Two long swords recovered from a drainage line nearby",
+        "CCTV clip from nearby hotel",
+        "Post-mortem examination report"
+      ],
+      "io": "Inspector Siddeshwar",
+      "court_case_no": "Sessions Case 112/2024"
+    },
+    {
+      "fir_id": 32,
+      "fir_number": "0099/2024",
+      "station": {
+        "name": "Yadgir Town PS",
+        "district": "Yadgir",
+        "lat": 16.7684,
+        "lng": 77.1378
+      },
+      "filed_at": "2024-06-16T10:15:00",
+      "occurred_at": "2024-06-15T01:30:00",
+      "crime_type": "Burglary",
+      "ipc_sections": [
+        "457",
+        "380"
+      ],
+      "description": "Theft reported at a locked jewellery showroom. The suspects entered by drilling a hole through the rear brick wall from an adjacent abandoned building. Silver articles weighing 8kg and Rs 50,000 cash were stolen.",
+      "location_text": "Mahalaxmi Jewellers, Subhash Chowk, Yadgir",
+      "lat": 16.7702,
+      "lng": 77.1399,
+      "status": "open",
+      "complainant": {
+        "name": "Gopal Soni",
+        "age": 46,
+        "gender": "Male",
+        "phone": "9980123456",
+        "relation": "Showroom Owner"
+      },
+      "victim": {
+        "name": "Gopal Soni",
+        "age": 46,
+        "gender": "Male",
+        "address": "Subhash Chowk, Yadgir",
+        "injury": "Loss of property valued at approx Rs 6,50,000"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Professional gas-cutter or wall-drilling gang, masked"
+        }
+      ],
+      "evidence": [
+        "Drilling tools left behind",
+        "Fingerprints lifted by forensics squad",
+        "CCTV hard drive tampered/stolen"
+      ],
+      "io": "SI Ningappa",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 33,
+      "fir_number": "0188/2024",
+      "station": {
+        "name": "Chikkaballapur PS",
+        "district": "Chikkaballapur",
+        "lat": 13.4324,
+        "lng": 77.7281
+      },
+      "filed_at": "2024-06-28T22:30:00",
+      "occurred_at": "2024-06-28T20:45:00",
+      "crime_type": "Attempt to Murder",
+      "ipc_sections": [
+        "307",
+        "326",
+        "34"
+      ],
+      "description": "Complainant Harish (24) stated that while he was at a local eatery, the accused along with associates attacked him with a meat cleaver over old rivalry regarding an auto-rickshaw parking stand. Victim sustained deep hand and head cuts.",
+      "location_text": "Sri Manjunatha Darshini, Near Bus Stand, Chikkaballapur",
+      "lat": 13.4356,
+      "lng": 77.7299,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Harish V",
+        "age": 24,
+        "gender": "Male",
+        "phone": "8861054321",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Harish V",
+        "age": 24,
+        "gender": "Male",
+        "address": "Gaddige Road, Chikkaballapur",
+        "injury": "Severe lacerations on right wrist and scalp, bone exposed"
+      },
+      "accused": [
+        {
+          "name": "Naveen 'Kappe'",
+          "is_known": true,
+          "age": 26,
+          "address": "Chikkaballapur Town",
+          "physical_desc": "Short, stout, prominent eyes"
+        },
+        {
+          "name": "Karthik",
+          "is_known": true,
+          "age": 23,
+          "address": "Chikkaballapur Town",
+          "physical_desc": "Lean, tall"
+        }
+      ],
+      "evidence": [
+        "Blood splatters collected from restaurant floor",
+        "Meat cleaver recovered",
+        "Statements of 3 restaurant workers"
+      ],
+      "io": "SI Chandrashekar",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 34,
+      "fir_number": "0423/2024",
+      "station": {
+        "name": "Kolar Town PS",
+        "district": "Kolar",
+        "lat": 13.1367,
+        "lng": 78.1292
+      },
+      "filed_at": "2024-07-10T11:45:00",
+      "occurred_at": "2024-07-09T21:00:00",
+      "crime_type": "Dowry Harassment",
+      "ipc_sections": [
+        "498A",
+        "323",
+        "506"
+      ],
+      "description": "Complainant Kavya M (25) filed a complaint alleging persistent physical abuse and mental torture by her husband and mother-in-law demanding an additional site and Rs 3 lakhs cash. She was kicked out of the house on the night of July 9.",
+      "location_text": "Kataripalya, Kolar Town",
+      "lat": 13.1391,
+      "lng": 78.1312,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Kavya M",
+        "age": 25,
+        "gender": "Female",
+        "phone": "9945112244",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Kavya M",
+        "age": 25,
+        "gender": "Female",
+        "address": "Kataripalya, Kolar",
+        "injury": "Contusions on arms, back, and swelling around left eye"
+      },
+      "accused": [
+        {
+          "name": "Santhosh Kumar",
+          "is_known": true,
+          "age": 31,
+          "address": "Kataripalya, Kolar",
+          "physical_desc": "Husband, works as accountant"
+        },
+        {
+          "name": "Nirmala",
+          "is_known": true,
+          "age": 56,
+          "address": "Kataripalya, Kolar",
+          "physical_desc": "Mother-in-law"
+        }
+      ],
+      "evidence": [
+        "Medical wound certificate from SNR Hospital Kolar",
+        "Audio recordings of dowry demands"
+      ],
+      "io": "SI Roopa G (Women's PS)",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 35,
+      "fir_number": "0389/2024",
+      "station": {
+        "name": "Tumkur Kyathsandra PS",
+        "district": "Tumakuru",
+        "lat": 13.3312,
+        "lng": 77.1354
+      },
+      "filed_at": "2024-07-19T18:30:00",
+      "occurred_at": "2024-07-19T13:00:00",
+      "crime_type": "Kidnapping for Ransom",
+      "ipc_sections": [
+        "364A",
+        "34"
+      ],
+      "description": "Businessman's son Nitin (11) was abducted while walking home from school. Complainant received a ransom call from an untraceable mobile number at 3:00 PM demanding Rs 20 lakhs for the child's safe return.",
+      "location_text": "Near Siddaganga School Road, Kyathsandra, Tumkur",
+      "lat": 13.3341,
+      "lng": 77.1398,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Ranganath Swamy",
+        "age": 46,
+        "gender": "Male",
+        "phone": "9448067890",
+        "relation": "Father of victim"
+      },
+      "victim": {
+        "name": "Nitin R",
+        "age": 11,
+        "gender": "Male",
+        "address": "Kyathsandra, Tumkur",
+        "injury": "Abducted / Missing"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Two men in a white Maruti Omni, partial plate KA-06"
+        }
+      ],
+      "evidence": [
+        "Ransom call voice recording",
+        "School CCTV footage showing the Omni tracking the boy"
+      ],
+      "io": "Inspector Jagadish M",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 36,
+      "fir_number": "0291/2024",
+      "station": {
+        "name": "Srirangapatna PS",
+        "district": "Mandya",
+        "lat": 12.4241,
+        "lng": 76.6912
+      },
+      "filed_at": "2024-08-02T06:00:00",
+      "occurred_at": "2024-08-01T23:00:00",
+      "crime_type": "Illegal Sand Mining",
+      "ipc_sections": [
+        "379",
+        "21 MMDR Act"
+      ],
+      "description": "During a midnight patrolling operation, police intercepted two heavy tipper trucks illegally mining and transporting river bed sand from Cauvery river basin without valid permits.",
+      "location_text": "Cauvery River Bed, near Mahadevapura Village, Srirangapatna",
+      "lat": 12.4412,
+      "lng": 76.6756,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "PSI Siddappa (suo motu)",
+        "age": null,
+        "gender": "Male",
+        "phone": null,
+        "relation": "Investigating Officer"
+      },
+      "victim": {
+        "name": "State Environment",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Environmental degradation and mineral theft"
+      },
+      "accused": [
+        {
+          "name": "Girish M",
+          "is_known": true,
+          "age": 34,
+          "address": "Srirangapatna",
+          "physical_desc": "Truck driver"
+        },
+        {
+          "name": "Kiran Kumar",
+          "is_known": true,
+          "age": 42,
+          "address": "Mandya",
+          "physical_desc": "Sand mafia kingpin / Owner"
+        }
+      ],
+      "evidence": [
+        "Two tipper trucks seized with 5 units of sand each",
+        "Seizure Mahazar",
+        "GPS tracker logs"
+      ],
+      "io": "PSI Siddappa",
+      "court_case_no": "CC 245/2024"
+    },
+    {
+      "fir_id": 37,
+      "fir_number": "0677/2024",
+      "station": {
+        "name": "Malleshwaram PS",
+        "district": "Bangalore Urban",
+        "lat": 12.9972,
+        "lng": 77.5711
+      },
+      "filed_at": "2024-08-14T15:30:00",
+      "occurred_at": "2024-08-14T13:45:00",
+      "crime_type": "Shoplifting / Theft",
+      "ipc_sections": [
+        "380"
+      ],
+      "description": "Complainant, store manager of a high-end electronics showroom, reported that a customer smoothly stole a high-end Sony Mirrorless Camera (valued at Rs 1,80,000) from the display counter while sales staff were distracted.",
+      "location_text": "Reliance Digital, Margosa Road, Malleshwaram, Bangalore",
+      "lat": 12.9991,
+      "lng": 77.5698,
+      "status": "open",
+      "complainant": {
+        "name": "Raghavan N",
+        "age": 33,
+        "gender": "Male",
+        "phone": "9880054321",
+        "relation": "Store Manager"
+      },
+      "victim": {
+        "name": "Reliance Digital Store",
+        "age": null,
+        "gender": null,
+        "address": "Malleshwaram, Bangalore",
+        "injury": "Loss of inventory valued at Rs 1,80,000"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Male, ~35 years, well-dressed in formal wear, sporting French beard, wearing spectacles"
+        }
+      ],
+      "evidence": [
+        "High-definition store CCTV footage detailing the entire act"
+      ],
+      "io": "SI Lakshmi Devi",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 38,
+      "fir_number": "0412/2024",
+      "station": {
+        "name": "Hubli Suburban PS",
+        "district": "Dharwad",
+        "lat": 15.3524,
+        "lng": 75.1384
+      },
+      "filed_at": "2024-08-25T11:00:00",
+      "occurred_at": "2024-08-25T09:30:00",
+      "crime_type": "Assault on Public Servant",
+      "ipc_sections": [
+        "353",
+        "332",
+        "504"
+      ],
+      "description": "Complainant, a KSRTC bus conductor, stated that an aggressive passenger assaulted him and tore his uniform after being asked to purchase a ticket for luggage. The passenger obstructed the public servant from performing his duties.",
+      "location_text": "Hubli New Bus Stand, Gokul Road, Hubli",
+      "lat": 15.3556,
+      "lng": 75.1312,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "Devaraj Naik",
+        "age": 41,
+        "gender": "Male",
+        "phone": "9448998877",
+        "relation": "Self/Victim (Conductor)"
+      },
+      "victim": {
+        "name": "Devaraj Naik",
+        "age": 41,
+        "gender": "Male",
+        "address": "KSRTC Quarters, Hubli",
+        "injury": "Minor scratches on neck, torn uniform shirt"
+      },
+      "accused": [
+        {
+          "name": "Manjunath Hosamani",
+          "is_known": true,
+          "age": 28,
+          "address": "Navanagar, Hubli",
+          "physical_desc": "Medium build, wearing green shirt"
+        }
+      ],
+      "evidence": [
+        "Torn uniform shirt submitted",
+        "Bus CCTV camera footage",
+        "Statements from 3 co-passengers"
+      ],
+      "io": "SI Prakash G",
+      "court_case_no": "CC 310/2024"
+    },
+    {
+      "fir_id": 39,
+      "fir_number": "0388/2024",
+      "station": {
+        "name": "Manipal PS",
+        "district": "Udupi",
+        "lat": 13.3481,
+        "lng": 74.7891
+      },
+      "filed_at": "2024-09-08T18:20:00",
+      "occurred_at": "2024-09-08T16:10:00",
+      "crime_type": "Rash Driving / Accident",
+      "ipc_sections": [
+        "279",
+        "337",
+        "338"
+      ],
+      "description": "A speeding SUV lost control and rammed into an auto-rickshaw from behind. The auto overturned, causing severe bone fractures to a student passenger. The SUV driver was arrested on the spot by nearby traffic police.",
+      "location_text": "Tiger Circle, Manipal, Udupi",
+      "lat": 13.3495,
+      "lng": 74.7912,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Raghavendra Acharya",
+        "age": 45,
+        "gender": "Male",
+        "phone": "9741054321",
+        "relation": "Auto Driver"
+      },
+      "victim": {
+        "name": "Ananya Hegde",
+        "age": 20,
+        "gender": "Female",
+        "address": "MIT Hostels, Manipal",
+        "injury": "Fracture of right collarbone and multiple minor lacerations"
+      },
+      "accused": [
+        {
+          "name": "Rohit Shetty",
+          "is_known": true,
+          "age": 22,
+          "address": "Kunjibettu, Udupi",
+          "physical_desc": "SUV Driver (Creta, KA-20 MA-9911)"
+        }
+      ],
+      "evidence": [
+        "Vehicle damage inspection report (IMV report)",
+        "Medical case sheet from KMC Hospital Manipal",
+        "Spot sketch map"
+      ],
+      "io": "SI Satish Kumar",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 40,
+      "fir_number": "0511/2024",
+      "station": {
+        "name": "Mangaluru South PS",
+        "district": "Dakshina Kannada",
+        "lat": 12.8594,
+        "lng": 74.8455
+      },
+      "filed_at": "2024-09-20T14:40:00",
+      "occurred_at": "2024-09-18T10:00:00",
+      "crime_type": "Medical Negligence",
+      "ipc_sections": [
+        "304A"
+      ],
+      "description": "Complainant alleged that his elderly mother died during a routine laparoscopic surgery due to gross medical negligence by the operating surgeon, who allegedly cut a major artery and delayed emergency response.",
+      "location_text": "LifeCare Private Hospital, Kankanady, Mangaluru",
+      "lat": 12.8645,
+      "lng": 74.8512,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Dr. Sandeep Prabhu",
+        "age": 44,
+        "gender": "Male",
+        "phone": "9448412345",
+        "relation": "Son of deceased"
+      },
+      "victim": {
+        "name": "Radha Prabhu",
+        "age": 68,
+        "gender": "Female",
+        "address": "Kadri, Mangaluru",
+        "injury": "Fatal internal hemorrhage during surgery"
+      },
+      "accused": [
+        {
+          "name": "Dr. K. S. Acharya",
+          "is_known": true,
+          "age": 54,
+          "address": "Mangaluru",
+          "physical_desc": "Senior General Surgeon"
+        }
+      ],
+      "evidence": [
+        "Hospital surgical notes and case file",
+        "Post-mortem report by Government Wenlock Hospital panel",
+        "Medical board review requisition"
+      ],
+      "io": "Inspector Bharati N",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 41,
+      "fir_number": "0811/2024",
+      "station": {
+        "name": "Chickpet PS",
+        "district": "Bangalore Urban",
+        "lat": 12.9719,
+        "lng": 77.5744
+      },
+      "filed_at": "2024-10-02T12:00:00",
+      "occurred_at": "2024-10-02T10:30:00",
+      "crime_type": "Counterfeit Goods Sale",
+      "ipc_sections": [
+        "420",
+        "63 Copyright Act"
+      ],
+      "description": "Raid conducted by police based on complaints from a corporate representative. Found large consignments of counterfeit luxury brand watches being sold as originals in a commercial market shop.",
+      "location_text": "Shop No. 12, BMR Complex, Chickpet, Bangalore",
+      "lat": 12.9734,
+      "lng": 77.5761,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "Anand Verma",
+        "age": 36,
+        "gender": "Male",
+        "phone": "9911223344",
+        "relation": "Authorized Brand Legal Inspector"
+      },
+      "victim": {
+        "name": "Brand Corporate Entity & Consumers",
+        "age": null,
+        "gender": null,
+        "address": "Mumbai Office",
+        "injury": "Intellectual property infringement, commercial fraud"
+      },
+      "accused": [
+        {
+          "name": "Ruparam Patel",
+          "is_known": true,
+          "age": 41,
+          "address": "Sajjan Rao Circle, Bangalore",
+          "physical_desc": "Medium build, trader"
+        }
+      ],
+      "evidence": [
+        "240 counterfeit luxury watches seized",
+        "Invoices without GST",
+        "Seizure mahazar"
+      ],
+      "io": "SI Sharath Chandra",
+      "court_case_no": "CC 412/2024"
+    },
+    {
+      "fir_id": 42,
+      "fir_number": "0456/2024",
+      "station": {
+        "name": "Khade Bazar PS",
+        "district": "Belagavi",
+        "lat": 15.8523,
+        "lng": 74.5012
+      },
+      "filed_at": "2024-10-09T17:15:00",
+      "occurred_at": "2024-10-08T22:00:00",
+      "crime_type": "Human Trafficking",
+      "ipc_sections": [
+        "370",
+        "370A",
+        "34"
+      ],
+      "description": "Tip-off received regarding a cross-border network trafficking minor girls under the pretext of hospitality jobs. Police raided a transit lodge near the bus stand and rescued two minor girls from neighboring states.",
+      "location_text": "Hotel Sangeetha Lodge, Near Central Bus Stand, Belagavi",
+      "lat": 15.8556,
+      "lng": 74.5045,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "SI Anita Patil (suo motu)",
+        "age": null,
+        "gender": "Female",
+        "phone": null,
+        "relation": "Investigating Officer"
+      },
+      "victim": {
+        "name": "Two Minor Girls (identities protected)",
+        "age": 16,
+        "gender": "Female",
+        "address": "Protected shelter home",
+        "injury": "Psychological trauma, confinement"
+      },
+      "accused": [
+        {
+          "name": "Sikandar Khan",
+          "is_known": true,
+          "age": 35,
+          "address": "Khanapur Road, Belagavi",
+          "physical_desc": "Dark complexion, thick mustache, agent"
+        },
+        {
+          "name": "Zarina Begum",
+          "is_known": true,
+          "age": 42,
+          "address": "Kolhapur, Maharashtra",
+          "physical_desc": "Operator, heavy build"
+        }
+      ],
+      "evidence": [
+        "Fake Aadhaar cards of victims with forged ages",
+        "Mobile chat histories detailing transaction rates",
+        "Lodge guest register entry"
+      ],
+      "io": "SI Anita Patil",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 43,
+      "fir_number": "0389/2024",
+      "station": {
+        "name": "Davangere South PS",
+        "district": "Davangere",
+        "lat": 14.4591,
+        "lng": 75.9154
+      },
+      "filed_at": "2024-10-14T09:00:00",
+      "occurred_at": "2024-10-13T19:00:00",
+      "crime_type": "Food Adulteration",
+      "ipc_sections": [
+        "272",
+        "273",
+        "420"
+      ],
+      "description": "Food safety inspectors accompanied by police conducted a surprise raid on a spice manufacturing mill. Found large quantities of industrial chemical dye and sawdust being mixed into chili powder and turmeric.",
+      "location_text": "Sri Guru Raghavendra Spice Mill, Industrial Area, Davangere",
+      "lat": 14.4622,
+      "lng": 75.9201,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "H. S. Shivakumar",
+        "age": 45,
+        "gender": "Male",
+        "phone": "9448011223",
+        "relation": "Senior Food Safety Officer"
+      },
+      "victim": {
+        "name": "General Public",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Health risk due to toxic adulteration"
+      },
+      "accused": [
+        {
+          "name": "Manjunath Swamy K",
+          "is_known": true,
+          "age": 49,
+          "address": "MCC B Block, Davangere",
+          "physical_desc": "Proprietor, balding, stout build"
+        }
+      ],
+      "evidence": [
+        "500kg adulterated chili powder sealed",
+        "Bags of chemical dye powders",
+        "FSL / Food Laboratory test report proving toxicity"
+      ],
+      "io": "SI Mahesh Kumar",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 44,
+      "fir_number": "0944/2024",
+      "station": {
+        "name": "Electronic City PS",
+        "district": "Bangalore Urban",
+        "lat": 12.8452,
+        "lng": 77.6635
+      },
+      "filed_at": "2024-10-18T14:30:00",
+      "occurred_at": "2024-10-15T10:00:00",
+      "crime_type": "Criminal Breach of Trust by Employee",
+      "ipc_sections": [
+        "408",
+        "420"
+      ],
+      "description": "The HR and finance manager of an IT logistics firm discovered that a senior billing executive manipulated company invoice records and diverted client payments into his personal bank account, misappropriating Rs 14.8 lakhs over six months.",
+      "location_text": "LogiTech Solutions, Phase 1, Electronic City, Bangalore",
+      "lat": 12.8481,
+      "lng": 77.6612,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Vikram Raj",
+        "age": 41,
+        "gender": "Male",
+        "phone": "9886754321",
+        "relation": "HR Director"
+      },
+      "victim": {
+        "name": "LogiTech Solutions Corporate Entity",
+        "age": null,
+        "gender": null,
+        "address": "Electronic City, Bangalore",
+        "injury": "Financial misappropriation of Rs 14,80,000"
+      },
+      "accused": [
+        {
+          "name": "Karthik Subramaniam",
+          "is_known": true,
+          "age": 33,
+          "address": "Begur Road, Bangalore",
+          "physical_desc": "Medium build, wearing glasses, currently absconding"
+        }
+      ],
+      "evidence": [
+        "Internal forensic audit report",
+        "Forged invoice copies with altered bank details",
+        "Company server access logs matching accused credentials"
+      ],
+      "io": "SI Venkatesh Prasad",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 45,
+      "fir_number": "0299/2024",
+      "station": {
+        "name": "Bidar Rural PS",
+        "district": "Bidar",
+        "lat": 17.9156,
+        "lng": 77.5012
+      },
+      "filed_at": "2024-10-22T23:45:00",
+      "occurred_at": "2024-10-22T22:30:00",
+      "crime_type": "Arms Act Violation",
+      "ipc_sections": [
+        "25 Arms Act"
+      ],
+      "description": "During a routine vehicle check on the state border highway, police stopped a suspicious country-made SUV. Upon frisking the occupants, one person was found in possession of an illegal country-made single-shot pistol (Katta) and 3 live rounds without any license.",
+      "location_text": "Checkpost near Kamalnagar Road, Bidar Border",
+      "lat": 17.9412,
+      "lng": 77.4856,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "PSI Tukaram (suo motu)",
+        "age": null,
+        "gender": "Male",
+        "phone": null,
+        "relation": "Investigating Officer"
+      },
+      "victim": {
+        "name": "State Safety",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Illegal weapon threat"
+      },
+      "accused": [
+        {
+          "name": "Javed Ansari",
+          "is_known": true,
+          "age": 27,
+          "address": "Latur, Maharashtra",
+          "physical_desc": "Tall, lean, scar over left eyebrow, arrested"
+        }
+      ],
+      "evidence": [
+        "One country-made country pistol (Katta)",
+        "3 live ammunition rounds (7.65mm caliber)",
+        "SUV vehicle seized"
+      ],
+      "io": "PSI Tukaram",
+      "court_case_no": "CC 512/2024"
+    },
+    {
+      "fir_id": 46,
+      "fir_number": "0677/2024",
+      "station": {
+        "name": "Shivamogga Rural PS",
+        "district": "Shivamogga",
+        "lat": 13.9333,
+        "lng": 75.5622
+      },
+      "filed_at": "2024-10-26T10:00:00",
+      "occurred_at": "2024-10-25T19:30:00",
+      "crime_type": "Destruction of Public Property",
+      "ipc_sections": [
+        "427",
+        "3 PDPP Act",
+        "143",
+        "147"
+      ],
+      "description": "A group of violent agitators blocked the state highway during a flash protest, pelted stones at two government KSRTC buses, broke windshields, and set fire to a public transit shelter over a political dispute.",
+      "location_text": "Bhadravathi-Shivamogga Highway Junction, Shivamogga",
+      "lat": 13.9112,
+      "lng": 75.5945,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Nagaraj Rao",
+        "age": 46,
+        "gender": "Male",
+        "phone": "9448154321",
+        "relation": "KSRTC Bus Driver"
+      },
+      "victim": {
+        "name": "KSRTC & Public Works Department",
+        "age": null,
+        "gender": null,
+        "address": "Government Corporation",
+        "injury": "Public property damage worth Rs 3,50,000"
+      },
+      "accused": [
+        {
+          "name": "Group of 15-20 political party workers",
+          "is_known": false,
+          "physical_desc": "Led by local youth leaders, shouting slogans, carrying wooden staffs"
+        }
+      ],
+      "evidence": [
+        "Photographs and video recordings of the riot",
+        "Stone pieces collected from inside the bus",
+        "Damaged bus parts forensic verification report"
+      ],
+      "io": "SI Shivakumar G",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 47,
+      "fir_number": "0422/2024",
+      "station": {
+        "name": "Hassan Women PS",
+        "district": "Hassan",
+        "lat": 13.0068,
+        "lng": 76.1004
+      },
+      "filed_at": "2024-11-01T11:15:00",
+      "occurred_at": "2024-11-01T02:00:00",
+      "crime_type": "Domestic Violence",
+      "ipc_sections": [
+        "498A",
+        "324"
+      ],
+      "description": "Complainant Asha Rani (28) stated that her husband came home under the heavy influence of alcohol, picked up a kitchen knife during a domestic argument, and slashed her upper arm while demanding gold ornaments for liquidating debt.",
+      "location_text": "Kuvenpu Nagar, Hassan Town",
+      "lat": 13.0112,
+      "lng": 76.1045,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Asha Rani",
+        "age": 28,
+        "gender": "Female",
+        "phone": "9743098765",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Asha Rani",
+        "age": 28,
+        "gender": "Female",
+        "address": "Kuvenpu Nagar, Hassan",
+        "injury": "Deep incised wound on left upper arm requiring 6 stitches"
+      },
+      "accused": [
+        {
+          "name": "Ranganath Swamy K",
+          "is_known": true,
+          "age": 34,
+          "address": "Kuvenpu Nagar, Hassan",
+          "physical_desc": "Husband, private contractor, dark complexion"
+        }
+      ],
+      "evidence": [
+        "Kitchen knife with blood stains recovered from house",
+        "Wound certificate from Hassan General Hospital"
+      ],
+      "io": "SI Mangala Gowri",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 48,
+      "fir_number": "0245/2024",
+      "station": {
+        "name": "Ramanagara Rural PS",
+        "district": "Ramanagara",
+        "lat": 12.7157,
+        "lng": 77.282
+      },
+      "filed_at": "2024-11-05T14:00:00",
+      "occurred_at": "2024-11-05T11:30:00",
+      "crime_type": "Child Labour Exploitation",
+      "ipc_sections": [
+        "374",
+        "14 Child Labour Act",
+        "79 Juvenile Justice Act"
+      ],
+      "description": "A joint rescue raid conducted by the District Child Protection Unit and police rescued three young boys under the age of 14 working in hazardous conditions inside an industrial brick kiln without wages or education.",
+      "location_text": "Sri Laxmi Brick Kiln, Kailancha Hobli, Ramanagara",
+      "lat": 12.6945,
+      "lng": 77.2512,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "D. M. Shivarudrappa",
+        "age": 42,
+        "gender": "Male",
+        "phone": "9448112233",
+        "relation": "District Child Protection Officer"
+      },
+      "victim": {
+        "name": "Three Minor Boys (identities withheld)",
+        "age": 12,
+        "gender": "Male",
+        "address": "Rescued, shifted to safe children home",
+        "injury": "Malnutrition, physical exhaustion, illegal confinement"
+      },
+      "accused": [
+        {
+          "name": "Channe Gowda",
+          "is_known": true,
+          "age": 52,
+          "address": "Kailancha, Ramanagara",
+          "physical_desc": "Kiln owner, influential landlord"
+        }
+      ],
+      "evidence": [
+        "Age verification certificates from government hospital",
+        "Daily wage logs and work attendance books seized from spot",
+        "Statements of children recorded under video cover"
+      ],
+      "io": "SI Ramesh Patel",
+      "court_case_no": "CC 741/2024"
+    },
+    {
+      "fir_id": 49,
+      "fir_number": "0512/2024",
+      "station": {
+        "name": "Laxmipuram PS",
+        "district": "Mysuru",
+        "lat": 12.3012,
+        "lng": 76.6434
+      },
+      "filed_at": "2024-11-10T11:00:00",
+      "occurred_at": "2024-03-12T10:00:00",
+      "crime_type": "Land Forgery Fraud",
+      "ipc_sections": [
+        "467",
+        "468",
+        "471",
+        "420"
+      ],
+      "description": "Complainant, an NRI residing in USA, discovered that his ancestral site in Mysuru was fraudulently sold off by an impersonator using a heavily forged GPA (General Power of Attorney) and a fabricated death certificate of his late father.",
+      "location_text": "Site No. 234, Saraswathipuram, Mysuru",
+      "lat": 12.3056,
+      "lng": 76.6389,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Srinath Krishnan",
+        "age": 48,
+        "gender": "Male",
+        "phone": "+1-408-XXXXXXX",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Srinath Krishnan",
+        "age": 48,
+        "gender": "Male",
+        "address": "California, USA / Mysuru",
+        "injury": "Financial and property loss valued at Rs 1.2 Crores"
+      },
+      "accused": [
+        {
+          "name": "Mahesh Kumar alias 'Proxy'",
+          "is_known": true,
+          "age": 42,
+          "address": "Nazarbad, Mysuru",
+          "physical_desc": "Impersonator, medium build"
+        },
+        {
+          "name": "Unknown Sub-Registrar office tout",
+          "is_known": false,
+          "physical_desc": "Facilitator of fake registration"
+        }
+      ],
+      "evidence": [
+        "Certified copy of fraudulent sale deed",
+        "Forensic document expert report proving signature forgery",
+        "Original land deeds submitted by complainant"
+      ],
+      "io": "Inspector Siddaraju",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 50,
+      "fir_number": "0388/2024",
+      "station": {
+        "name": "Bagalkot Rural PS",
+        "district": "Bagalkot",
+        "lat": 16.1691,
+        "lng": 75.6615
+      },
+      "filed_at": "2024-11-15T08:30:00",
+      "occurred_at": "2024-11-14T23:30:00",
+      "crime_type": "Arson / Vehicle Burning",
+      "ipc_sections": [
+        "435",
+        "427"
+      ],
+      "description": "Complainant's newly purchased Mahindra tractor parked in the farm field was set ablaze by unidentified elements at night. The vehicle was completely burnt down. Political rivalry over village panchayat elections suspected.",
+      "location_text": "Farm field near Gaddanakeri Cross, Bagalkot",
+      "lat": 16.1856,
+      "lng": 75.6312,
+      "status": "open",
+      "complainant": {
+        "name": "Hanumanthappa Gouda",
+        "age": 51,
+        "gender": "Male",
+        "phone": "9480212345",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Hanumanthappa Gouda",
+        "age": 51,
+        "gender": "Male",
+        "address": "Gaddanakeri, Bagalkot",
+        "injury": "Tractor completely destroyed, loss of Rs 7.5 lakhs"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Suspected political opponents from rival faction"
+        }
+      ],
+      "evidence": [
+        "Traces of kerosene container found 10m away",
+        "Fire insurance damage assessment file",
+        "Photos of the charred vehicle shell"
+      ],
+      "io": "HC Sangappa",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 51,
+      "fir_number": "0312/2024",
+      "station": {
+        "name": "Chitradurga Rural PS",
+        "district": "Chitradurga",
+        "lat": 14.2251,
+        "lng": 76.398
+      },
+      "filed_at": "2024-11-20T12:45:00",
+      "occurred_at": "2024-11-18T10:00:00",
+      "crime_type": "Bigamy & Cheating",
+      "ipc_sections": [
+        "494",
+        "420",
+        "506"
+      ],
+      "description": "Complainant Roopa (31) discovered that her husband of four years had married another woman in a secret ceremony without obtaining a legal divorce, and had hidden his first marriage documents and ancestral property status.",
+      "location_text": "Kelagote Layout, Chitradurga Town",
+      "lat": 14.2189,
+      "lng": 76.4012,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Roopa S",
+        "age": 31,
+        "gender": "Female",
+        "phone": "9901456789",
+        "relation": "Self/Victim (Wife)"
+      },
+      "victim": {
+        "name": "Roopa S",
+        "age": 31,
+        "gender": "Female",
+        "address": "Kelagote, Chitradurga",
+        "injury": "Emotional trauma, marital cheating"
+      },
+      "accused": [
+        {
+          "name": "Kumaraswamy B",
+          "is_known": true,
+          "age": 35,
+          "address": "Chitradurga",
+          "physical_desc": "Husband, bank employee"
+        },
+        {
+          "name": "Second Wife (name protected)",
+          "is_known": true,
+          "age": 26,
+          "address": "Challakere",
+          "physical_desc": "Co-accused / partner"
+        }
+      ],
+      "evidence": [
+        "Second marriage temple certificate copy",
+        "Photographs of wedding ceremony",
+        "WhatsApp confession texts"
+      ],
+      "io": "SI Savitha Rao (Women's Cell)",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 52,
+      "fir_number": "1112/2024",
+      "station": {
+        "name": "Koramangala PS",
+        "district": "Bangalore Urban",
+        "lat": 12.9352,
+        "lng": 77.6245
+      },
+      "filed_at": "2024-11-24T16:00:00",
+      "occurred_at": "2024-11-23T11:00:00",
+      "crime_type": "Cyber Defamation / Harassment",
+      "ipc_sections": [
+        "506",
+        "509",
+        "67 IT Act"
+      ],
+      "description": "Complainant, a female model and influencer, filed a complaint against an ex-colleague who created multiple morphing-based fake profiles on Instagram to post derogatory remarks, morphed offensive photos, and sent threatening direct messages.",
+      "location_text": "Online Cyber Space / Koramangala residence",
+      "lat": 12.9311,
+      "lng": 77.6212,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Meghna Nair",
+        "age": 25,
+        "gender": "Female",
+        "phone": "9845345678",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Meghna Nair",
+        "age": 25,
+        "gender": "Female",
+        "address": "Koramangala 4th Block, Bangalore",
+        "injury": "Severe reputational damage, mental harassment"
+      },
+      "accused": [
+        {
+          "name": "Siddharth Sharma",
+          "is_known": true,
+          "age": 28,
+          "address": "Indiranagar, Bangalore",
+          "physical_desc": "Ex-manager, tech-savvy"
+        }
+      ],
+      "evidence": [
+        "URL profiles links and high-res screenshots of offensive content",
+        "IP address trace logs requested from Meta Platforms Inc."
+      ],
+      "io": "SI Deepa Rao",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 53,
+      "fir_number": "0112/2024",
+      "station": {
+        "name": "Gundlupet PS",
+        "district": "Chamarajanagar",
+        "lat": 11.8123,
+        "lng": 76.6912
+      },
+      "filed_at": "2024-11-27T04:00:00",
+      "occurred_at": "2024-11-27T01:30:00",
+      "crime_type": "Illegal Liquor Smuggling",
+      "ipc_sections": [
+        "32",
+        "34 Karnataka Excise Act"
+      ],
+      "description": "State border excise checkpost police intercepted a modified courier van smuggling huge volumes of non-duty paid Kerala-made liquor cartons into Karnataka concealed behind empty cardboard boxes.",
+      "location_text": "Moolehole Checkpost, Gundlupet border",
+      "lat": 11.7512,
+      "lng": 76.6124,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "Excise Inspector Lingaraju",
+        "age": 44,
+        "gender": "Male",
+        "phone": "9448234567",
+        "relation": "Public Servant"
+      },
+      "victim": {
+        "name": "State Revenue",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Excise duty theft"
+      },
+      "accused": [
+        {
+          "name": "Shaji Varghese",
+          "is_known": true,
+          "age": 39,
+          "address": "Wayanad, Kerala",
+          "physical_desc": "Driver, short build"
+        },
+        {
+          "name": "Unknown Trader",
+          "is_known": false,
+          "physical_desc": "Consignment owner based in Mysuru"
+        }
+      ],
+      "evidence": [
+        "45 cartons containing 2160 bottles of IMFL liquor",
+        "Modified Mahindra Bolero vehicle seized",
+        "Seizure report"
+      ],
+      "io": "Excise Inspector Lingaraju",
+      "court_case_no": "Excise Case 45/2024"
+    },
+    {
+      "fir_id": 54,
+      "fir_number": "0411/2024",
+      "station": {
+        "name": "Tumkur Rural PS",
+        "district": "Tumakuru",
+        "lat": 13.3409,
+        "lng": 77.101
+      },
+      "filed_at": "2024-11-29T11:30:00",
+      "occurred_at": "2024-11-28T15:00:00",
+      "crime_type": "Power Theft",
+      "ipc_sections": [
+        "135 Electricity Act"
+      ],
+      "description": "Surprise vigilance inspection by BESCOM squad detected massive power theft at a commercial cold storage unit using a sophisticated remote-controlled bypass circuit installed ahead of the digital meter.",
+      "location_text": "Sri Shiva Agro Cold Storage, Tumkur Industrial Area",
+      "lat": 13.3612,
+      "lng": 77.1245,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "M. N. Murthy",
+        "age": 48,
+        "gender": "Male",
+        "phone": "9449854321",
+        "relation": "BESCOM Vigilance Executive Engineer"
+      },
+      "victim": {
+        "name": "BESCOM / Power Grid",
+        "age": null,
+        "gender": null,
+        "address": "Government Utility",
+        "injury": "Revenue theft computed at Rs 6,40,000"
+      },
+      "accused": [
+        {
+          "name": "Rajendra Prasad",
+          "is_known": true,
+          "age": 46,
+          "address": "Siddharth Nagar, Tumkur",
+          "physical_desc": "Factory Owner"
+        }
+      ],
+      "evidence": [
+        "Bypass remote circuit device seized",
+        "Tampered digital meter unit",
+        "BESCOM consumption logs analysis report"
+      ],
+      "io": "SI Jagdish Kumar",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 55,
+      "fir_number": "0089/2024",
+      "station": {
+        "name": "Lokayukta PS Belagavi",
+        "district": "Belagavi",
+        "lat": 15.8497,
+        "lng": 74.4977
+      },
+      "filed_at": "2024-11-30T17:45:00",
+      "occurred_at": "2024-11-30T15:30:00",
+      "crime_type": "Bribery / Prevention of Corruption",
+      "ipc_sections": [
+        "7 Prevention of Corruption Act"
+      ],
+      "description": "Lokayukta police laid a successful trap operation based on a complainant's petition. A senior surveyor was caught red-handed accepting a bribe of Rs 25,000 from a citizen to process a land mutation map.",
+      "location_text": "Taluk Office, Survey Department, Belagavi",
+      "lat": 15.8512,
+      "lng": 74.5022,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "Basavaraj Koralli",
+        "age": 43,
+        "gender": "Male",
+        "phone": "9945098761",
+        "relation": "Self/Complainant"
+      },
+      "victim": {
+        "name": "State Administration / Clean governance",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Corruption"
+      },
+      "accused": [
+        {
+          "name": "Eshwarappa Gowda",
+          "is_known": true,
+          "age": 51,
+          "address": "Tilakwadi, Belagavi",
+          "physical_desc": "Senior Revenue Surveyor, caught red-handed"
+        }
+      ],
+      "evidence": [
+        "Phenolphthalein-treated currency notes totaling Rs 25,000",
+        "Sodium carbonate solution hand wash test positive (pink color change video recorded)",
+        "Complainant voice recordings"
+      ],
+      "io": "Lokayukta DYSP Shankar",
+      "court_case_no": "LOK CC 12/2024"
+    },
+    {
+      "fir_id": 56,
+      "fir_number": "1214/2024",
+      "station": {
+        "name": "Jayanagar PS",
+        "district": "Bangalore Urban",
+        "lat": 12.9279,
+        "lng": 77.5824
+      },
+      "filed_at": "2024-12-01T21:00:00",
+      "occurred_at": "2024-12-01T19:45:00",
+      "crime_type": "Mobile Snatching",
+      "ipc_sections": [
+        "379",
+        "356"
+      ],
+      "description": "Complainant Rahul Sharma (21, student) was standing near Jayanagar 4th Block complex talking on his iPhone 15 when two youths on a black sports motorcycle sped past and forcefully snatched the phone out of his hand.",
+      "location_text": "Near Jayanagar 4th Block BDA Complex, Bangalore",
+      "lat": 12.9295,
+      "lng": 77.5841,
+      "status": "open",
+      "complainant": {
+        "name": "Rahul Sharma",
+        "age": 21,
+        "gender": "Male",
+        "phone": "9886412345",
+        "relation": "Self/Victim"
+      },
+      "victim": {
+        "name": "Rahul Sharma",
+        "age": 21,
+        "gender": "Male",
+        "address": "JP Nagar, Bangalore",
+        "injury": "Minor scratch on fingers, loss of phone valued at Rs 75,000"
+      },
+      "accused": [
+        {
+          "name": "Unknown",
+          "is_known": false,
+          "physical_desc": "Two young males on a KTM Duke motorcycle without number plates, wearing dark hoodies"
+        }
+      ],
+      "evidence": [
+        "IMEI number activation tracing request",
+        "CCTV footage from BDA complex entry gate"
+      ],
+      "io": "SI Vijay Kumar",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 57,
+      "fir_number": "0199/2024",
+      "station": {
+        "name": "Betageri PS",
+        "district": "Gadag",
+        "lat": 15.4212,
+        "lng": 75.6412
+      },
+      "filed_at": "2024-12-02T10:30:00",
+      "occurred_at": "2024-12-01T21:30:00",
+      "crime_type": "Assault with Dangerous Weapons",
+      "ipc_sections": [
+        "324",
+        "326",
+        "504"
+      ],
+      "description": "Complainant reported a violent clash during a local festival. The accused hit the victim on his knee joint with an iron rod following a heated argument over a minor queue line dispute, causing a compound bone fracture.",
+      "location_text": "Durgadevi Temple Grounds, Betageri, Gadag",
+      "lat": 15.4256,
+      "lng": 75.6489,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "Yallappa Lamani",
+        "age": 29,
+        "gender": "Male",
+        "phone": "9481234561",
+        "relation": "Brother of victim"
+      },
+      "victim": {
+        "name": "Muttappa Lamani",
+        "age": 26,
+        "gender": "Male",
+        "address": "Betageri, Gadag",
+        "injury": "Compound fracture of right patella, hospitalized"
+      },
+      "accused": [
+        {
+          "name": "Basavaraj 'Doni'",
+          "is_known": true,
+          "age": 31,
+          "address": "Betageri, Gadag",
+          "physical_desc": "Stocky build, long hair"
+        }
+      ],
+      "evidence": [
+        "Iron rod recovered from temple premises",
+        "X-ray medical report showing bone fracture from Gadag District Hospital"
+      ],
+      "io": "SI Shivanand",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 58,
+      "fir_number": "0114/2024",
+      "station": {
+        "name": "Bandipur Forest Range Office (Police Cell)",
+        "district": "Chamarajanagar",
+        "lat": 11.6667,
+        "lng": 76.625
+      },
+      "filed_at": "2024-12-02T16:00:00",
+      "occurred_at": "2024-12-02T05:00:00",
+      "crime_type": "Forest Poaching Violation",
+      "ipc_sections": [
+        "9",
+        "39",
+        "51 Wildlife Protection Act",
+        "379 IPC"
+      ],
+      "description": "Forest guards on early morning anti-poaching patrol caught two individuals inside the core reserve area carrying wire traps and country knives, having illegally hunted a spotted deer and harvested its antlers.",
+      "location_text": "Maddur Range Forest, Bandipur National Park",
+      "lat": 11.6912,
+      "lng": 76.6045,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "Raju S (Forest Range Officer)",
+        "age": 39,
+        "gender": "Male",
+        "phone": "9448022114",
+        "relation": "Public Servant"
+      },
+      "victim": {
+        "name": "State Wildlife Heritage",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Death of protected spotted deer"
+      },
+      "accused": [
+        {
+          "name": "Madha",
+          "is_known": true,
+          "age": 38,
+          "address": "Tribal hamlet border, Gundlupet",
+          "physical_desc": "Lean, weather-beaten complexion"
+        },
+        {
+          "name": "Ketla",
+          "is_known": true,
+          "age": 42,
+          "address": "Tribal hamlet border, Gundlupet",
+          "physical_desc": "Medium build, short"
+        }
+      ],
+      "evidence": [
+        "Deerskin and 2 deer antlers seized",
+        "Clutch wire snares and two country machetes",
+        "Post-mortem report by wildlife veterinarian"
+      ],
+      "io": "Forest Range Officer Raju S",
+      "court_case_no": "WCC 04/2024"
+    },
+    {
+      "fir_id": 59,
+      "fir_number": "0291/2024",
+      "station": {
+        "name": "Manvi PS",
+        "district": "Raichur",
+        "lat": 15.9878,
+        "lng": 77.0512
+      },
+      "filed_at": "2024-12-02T19:00:00",
+      "occurred_at": "2024-12-02T14:00:00",
+      "crime_type": "Illegal Explosives Possession",
+      "ipc_sections": [
+        "4",
+        "5 Explosive Substances Act"
+      ],
+      "description": "Acting on a specific tip, police raided an unauthorized stone quarry storage shed and seized massive quantities of commercial gelatin sticks and detonators stored unsafely without any valid explosive storage license.",
+      "location_text": "Illegal quarry site, Sirwar Road, Manvi, Raichur",
+      "lat": 16.0112,
+      "lng": 77.0756,
+      "status": "under_investigation",
+      "complainant": {
+        "name": "PSI Hanumantha (suo motu)",
+        "age": null,
+        "gender": "Male",
+        "phone": null,
+        "relation": "Investigating Officer"
+      },
+      "victim": {
+        "name": "Public Safety",
+        "age": null,
+        "gender": null,
+        "address": null,
+        "injury": "Explosion hazard"
+      },
+      "accused": [
+        {
+          "name": "Amaresh Gowda",
+          "is_known": true,
+          "age": 45,
+          "address": "Manvi Town, Raichur",
+          "physical_desc": "Quarry operator, well-to-do"
+        }
+      ],
+      "evidence": [
+        "120 commercial gelatin sticks",
+        "50 electronic detonators",
+        "Seizure mahazar"
+      ],
+      "io": "PSI Hanumantha",
+      "court_case_no": null
+    },
+    {
+      "fir_id": 60,
+      "fir_number": "0188/2024",
+      "station": {
+        "name": "Maddur Town PS",
+        "district": "Mandya",
+        "lat": 12.5841,
+        "lng": 77.0452
+      },
+      "filed_at": "2024-12-02T21:30:00",
+      "occurred_at": "2024-12-02T17:00:00",
+      "crime_type": "Cruelty to Animals",
+      "ipc_sections": [
+        "429 IPC",
+        "11 Prevention of Cruelty to Animals Act"
+      ],
+      "description": "Complainant, an animal rights NGO volunteer, reported that a local resident mercilessly beat a stray dog with an iron rod and threw it into an open well, causing severe head injuries leading to the animal's death.",
+      "location_text": "Behind KSRTC Bus Stand, Maddur, Mandya",
+      "lat": 12.5891,
+      "lng": 77.0498,
+      "status": "chargesheeted",
+      "complainant": {
+        "name": "Sharath Kumar",
+        "age": 28,
+        "gender": "Male",
+        "phone": "9886112233",
+        "relation": "NGO Activist / Complainant"
+      },
+      "victim": {
+        "name": "Stray Dog (Canine)",
+        "age": null,
+        "gender": "Male",
+        "address": "Maddur Town",
+        "injury": "Fatal skull fracture and drowning"
+      },
+      "accused": [
+        {
+          "name": "Nagesha M",
+          "is_known": true,
+          "age": 44,
+          "address": "Maddur Town",
+          "physical_desc": "Local vendor, medium build"
+        }
+      ],
+      "evidence": [
+        "Iron rod with hair strands recovered",
+        "CCTV clip from adjoining shop showing the act",
+        "Veterinary autopsy report"
+      ],
+      "io": "SI Swamy Gowda",
+      "court_case_no": "CC 912/2024"
+    }
+  ]
+}
