@@ -1,0 +1,119 @@
+
+KARNATAKA SYNTHETIC FIR DATASET DOCUMENTATION
+
+1. DATASET VOLUME & SAMPLING BASELINE
+-------------------------------------
+* Baseline Representation:
+  - Total represented police stations: 91
+  - Projected baseline volume: ~20,000 FIRs/year * 16 years = ~320,000 FIRs since 2010
+* Generated Dataset Size:
+  - 330,000 synthetic FIR records (representing an approximate 10% sample of the baseline)
+  - Output File: karnataka_fir_330k.jsonl (one JSON object per line)
+  - Synthesized via a hybrid model consisting of:
+    - Phase 1 (LLM Seeds): ~1,700 culturally authentic narrative seeds generated using an LLM (Ollama llama3.1:8b).
+    - Phase 2 (Python Augmentation): Deterministic expansion to reach the exact 330,000 target by scaling across combinations of districts, timeline parameters, and identities while strictly keeping data logical and relational.
+
+2. CRIME CATEGORIES & DISTRIBUTION
+----------------------------------
+The dataset incorporates 11 distinct crime types weighted according to real-world Karnataka State crime statistics:
+
+| Crime Category    | Weight | Legal Act Mapping (IPC < July 2024 | BNS >= July 2024) |
+|-------------------|--------|------------------------------------------------------|
+| Theft             | 22.0%  | IPC Sec 379                        | BNS Sec 303(2)   |
+| Assault           | 16.0%  | IPC Sec 323                        | BNS Sec 115(2)   |
+| Cheating          | 14.0%  | IPC Sec 420                        | BNS Sec 318(4)   |
+| Cyber Fraud       | 13.0%  | IT Act 2000 Sec 66C (Exempt from IPC/BNS pivot)      |
+| Burglary          |  8.0%  | IPC Sec 457                        | BNS Sec 305      |
+| Property Damage   |  8.0%  | IPC Sec 427                        | BNS Sec 324(4)   |
+| Kidnapping        |  5.0%  | IPC Sec 363                        | BNS Sec 137(2)   |
+| Eve Teasing       |  5.0%  | IPC Sec 354A                       | BNS Sec 75       |
+| Rape              |  4.0%  | IPC Sec 376                        | BNS Sec 63       |
+| Riot              |  3.0%  | IPC Sec 147                        | BNS Sec 189(2)   |
+| Murder            |  2.0%  | IPC Sec 302                        | BNS Sec 103(1)   |
+
+3. GEOGRAPHIC COVERAGE & SPATIAL MODELING
+-----------------------------------------
+* Districts Covered:
+  All 31 districts of Karnataka:
+  Bagalkot, Ballari, Belagavi, Bengaluru Rural, Bengaluru Urban, Bidar, Chamarajanagar, 
+  Chikkaballapur, Chikkamagaluru, Chitradurga, Dakshina Kannada, Davanagere, Dharwad, Gadag, 
+  Hassan, Haveri, Kalaburagi, Kodagu, Kolar, Koppal, Mandya, Mysuru, Raichur, Ramanagara, 
+  Shivamogga, Tumakuru, Udupi, Uttara Kannada, Vijayapura, Vijayanagara, Yadgir.
+* Police Stations:
+  - 91 simulated police stations distributed across the state.
+  - Assigned round-robin to ensure balanced geographic coverage.
+* Geospatial Coordinates:
+  - Police station locations are bound to district centroids.
+  - Crime scenes are programmatically placed using spatial jittering (0.01 to 0.07 degrees offset from the district center).
+  - Distance (km) and compass direction (e.g., North-East) from the station to the crime scene are calculated dynamically using the Haversine formula and bearing calculations.
+  - Crime scene text contains authentic locality/ward names (15 per district), street names (urban/rural specific), and landmarks.
+
+4. TEMPORAL BOUNDARIES & LEGAL REGIME PIVOT
+-------------------------------------------
+* Temporal Window: January 1, 2010, to June 4, 2026.
+* Chronological Integrity:
+  - The date and time the FIR was filed ("filed_at") represents the master timeline node.
+  - The incident's occurrence window is programmatically generated to ensure the end of the occurrence ("to_time") is always prior to or equal to "filed_at".
+  - If the delay in reporting ("delay_in_reporting_hours") exceeds 24 hours, a culturally-grounded narrative reason is assigned (e.g., Cauvery water agitation bandh, harvest season, local panchayat mediation, etc.).
+* Legal Pivot (July 1, 2024):
+  - FIRs filed BEFORE July 1, 2024, are charged under the Indian Penal Code (IPC).
+  - FIRs filed ON or AFTER July 1, 2024, are charged under the Bharatiya Nyaya Sanhita (BNS).
+  - Special legislation (e.g., IT Act 2000 for Cyber Fraud) is exempt from the pivot.
+
+5. LOGICAL GUARDRAILS & RELATIONAL INTEGRITY
+--------------------------------------------
+* Gender and Guardian Prefix Alignment:
+  - If Gender is Male, the guardian prefix must be "S/O" (Son of) or "S/O Late".
+  - If Gender is Female, the guardian prefix must be "D/O" (Daughter of) or "W/O" (Wife of).
+  - If a female's prefix is "W/O", her age must be >= 18.
+* Age Discrepancies:
+  - Parents/guardians must be at least 18 years older than their children (e.g., if relation_to_victim is "parent", the complainant's age must be >= victim's age + 18).
+* Suo Moto Consistency:
+  - If the information type is "Suo Moto", the complainant is always a police officer (PSI, PI, SI, etc.), and the relation_to_victim is set appropriately.
+* Stolen/Damaged Property:
+  - Property details and valuation are generated only for crimes where property is stolen, damaged, or defrauded (Theft, Burglary, Property Damage, Cyber Fraud, Cheating).
+* Case Investigation Status:
+  - Status is assigned based on the age of the FIR. Recent cases (under 30 days old) are mostly "open" or "under_investigation". Older cases are likely "charge_sheet_filed" or "closed".
+  - A court case number is only generated if the status is "charge_sheet_filed" or "closed".
+
+6. DATA SCHEMA & JSON STRUCTURE
+------------------------------
+Each record in the dataset is a single JSON line adhering to the following nested structure:
+
+* `fir_id` (int): Unique incremental ID (1 to 25000).
+* `fir_number` (string): Standard police format "XXXX/YYYY" (e.g., "0025/2018").
+* `gd_reference` (string): General Diary entry reference.
+* `station` (object):
+  - `name` (string): Name of the police station (e.g., "Police Station No. 12").
+  - `district` (string): One of the 31 Karnataka districts.
+  - `lat` (float), `lng` (float): Geographic coordinates of the station.
+* `timeline` (object):
+  - `filed_at` (string): ISO timestamp when the FIR was logged.
+  - `occurrence_window` (object): ISO start and end timestamps (`from_time`, `to_time`).
+  - `delay_in_reporting_hours` (int): Elapsed hours.
+  - `reason_for_delay` (string/null): Factual justification if delay > 24 hours.
+* `information_type` (string): "Oral", "Written", or "Suo Moto".
+* `crime_type` (string): High-level category (e.g., "Cyber Fraud").
+* `charges` (array of objects):
+  - `act` (string): e.g., "IPC", "BNS", "IT Act 2000".
+  - `section` (string): Section of the law (e.g., "303(2)").
+* `description` (string): Structurally rich narrative combining incident details, victim details, evidence, and local context.
+* `location` (object):
+  - `text` (string): Full crime scene address including district and landmarks.
+  - `distance_from_ps_km` (float): Distance to the police station.
+  - `direction_from_ps` (string): Cardinal direction from the station.
+  - `lat` (float), `lng` (float): Coordinates of the crime scene.
+* `status` (string): "open", "under_investigation", "charge_sheet_filed", or "closed".
+* `people` (object):
+  - `complainant` (object): `name`, `guardian_name`, `age` (>=18), `gender`, `phone`, `relation_to_victim`.
+  - `victims` (array of objects): List containing `name`, `guardian_name`, `age`, `gender`, `address`, `injury_type`.
+  - `accused` (array of objects): List containing `name`, `is_known`, `physical_desc`.
+* `property_stolen` (object):
+  - `items_description` (string/null): Details of the property.
+  - `estimated_value_inr` (int): Valued in INR.
+* `investigation` (object):
+  - `io_name` (string): Investigating officer name & rank.
+  - `io_id` (string): Unique identifier for the officer.
+  - `evidence_logged` (array of strings): Physical, digital, and witness evidence list.
+  - `court_case_no` (string/null): Court record case number.
+================================================================================
