@@ -1,5 +1,3 @@
-The Challenge:
-
 Design and develop an Intelligent Conversational AI and Crime Analytics Platform that enables investigators, analysts, and policymakers to interact with the state crime database using natural language queries, while also providing advanced analytical capabilities grounded in criminology and sociological insights. 
 
 The proposed solution should enable users to discover hidden relationships between crimes,  offenders, victims, locations, and socio-economic patterns, support investigative decision making, and provide predictive and preventive insights to strengthen proactive law enforcement. 
